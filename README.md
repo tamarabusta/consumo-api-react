@@ -1,12 +1,36 @@
-# React + Vite
+# Consumo de API Pública en ReactJS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción 📋
 
-Currently, two official plugins are available:
+Este proyecto consiste en el consumo de una API pública utilizando React, aplicando `fetch()`, `useState` y `useEffect`.  
+Se muestra la información en una tabla, permitiendo además:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Búsqueda en tiempo real por nombre o ciudad 🔎
+- Ordenamiento alfabético de los usuarios 🅰️
+- Spinner animado mientras se cargan los datos 🔄
 
-## Expanding the ESLint configuration
+✅ El proyecto utiliza un listado personalizado de 13 usuarios argentinos (nombres, emails y ciudades) para simular una API.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## API Pública utilizada 🌐
+
+Se simuló el consumo de una API utilizando datos de usuarios argentinos personalizados, en lugar de una API real, para mantener relevancia local y consistencia en la visualización.
+
+---
+
+## Tecnologías utilizadas ⚙️
+
+- React
+- Vite
+- HTML
+- CSS en línea
+- Git y GitHub
+
+---
+
+## Autor ✍️
+
+Tamara Busta
+
+---
